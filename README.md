@@ -15,108 +15,108 @@ The model was trained on 21 classes using a balanced dataset, where only species
 ## Train Split
 | Species | Number of Images |
 |---------|------------------|
-| Aegithalos_caudatus | 511 |
-| Carduelis_carduelis | 546 |
-| Certhia_brachydactyla | 503 |
-| Chloris_chloris | 618 |
-| Coccothraustes_coccothraustes | 544 |
-| Columba_palumbus | 534 |
-| Cyanistes_caeruleus | 518 |
-| Dendrocopos_major | 506 |
-| Emberiza_citrinella | 520 |
-| Erithacus_rubecula | 502 |
-| Fringilla_coelebs | 511 |
-| Garrulus_glandarius | 512 |
-| Parus_major | 514 |
-| Passer_domesticus | 542 |
-| Phoenicurus_ochruros | 502 |
-| Pica_pica | 539 |
-| Poecile_palustris | 521 |
-| Pyrrhula_pyrrhula | 535 |
-| Sitta_europaea | 505 |
-| Spinus_spinus | 559 |
-| Turdus_merula | 518 |
+| Aegithalos_caudatus | 400 |
+| Carduelis_carduelis | 400 |
+| Certhia_brachydactyla | 400 |
+| Chloris_chloris | 400 |
+| Coccothraustes_coccothraustes | 400 |
+| Columba_palumbus | 400 |
+| Cyanistes_caeruleus | 400 |
+| Dendrocopos_major | 400 |
+| Emberiza_citrinella | 400 |
+| Erithacus_rubecula | 400 |
+| Fringilla_coelebs | 400 |
+| Garrulus_glandarius | 400 |
+| Parus_major | 400 |
+| Passer_domesticus | 400 |
+| Phoenicurus_ochruros | 400 |
+| Pica_pica | 400 |
+| Poecile_palustris | 400 |
+| Pyrrhula_pyrrhula | 400 |
+| Sitta_europaea | 400 |
+| Spinus_spinus | 400 |
+| Turdus_merula | 400 |
 
-**Total images in train: 11060**
+**Total images in train: 8400**
 
 ## Val Split
 | Species | Number of Images |
 |---------|------------------|
-| Aegithalos_caudatus | 44 |
-| Carduelis_carduelis | 52 |
-| Certhia_brachydactyla | 49 |
-| Chloris_chloris | 51 |
-| Coccothraustes_coccothraustes | 45 |
-| Columba_palumbus | 43 |
-| Cyanistes_caeruleus | 46 |
-| Dendrocopos_major | 47 |
-| Emberiza_citrinella | 47 |
-| Erithacus_rubecula | 46 |
-| Fringilla_coelebs | 45 |
-| Garrulus_glandarius | 43 |
-| Parus_major | 45 |
-| Passer_domesticus | 42 |
-| Phoenicurus_ochruros | 46 |
-| Pica_pica | 43 |
-| Poecile_palustris | 47 |
-| Pyrrhula_pyrrhula | 48 |
-| Sitta_europaea | 44 |
-| Spinus_spinus | 51 |
-| Turdus_merula | 45 |
+| Aegithalos_caudatus | 100 |
+| Carduelis_carduelis | 100 |
+| Certhia_brachydactyla | 100 |
+| Chloris_chloris | 100 |
+| Coccothraustes_coccothraustes | 100 |
+| Columba_palumbus | 100 |
+| Cyanistes_caeruleus | 100 |
+| Dendrocopos_major | 100 |
+| Emberiza_citrinella | 100 |
+| Erithacus_rubecula | 100 |
+| Fringilla_coelebs | 100 |
+| Garrulus_glandarius | 100 |
+| Parus_major | 100 |
+| Passer_domesticus | 100 |
+| Phoenicurus_ochruros | 100 |
+| Pica_pica | 100 |
+| Poecile_palustris | 100 |
+| Pyrrhula_pyrrhula | 100 |
+| Sitta_europaea | 100 |
+| Spinus_spinus | 100 |
+| Turdus_merula | 100 |
 
-**Total images in val: 969**
+**Total images in val: 2100**
 
 ## Test Split
 | Species | Number of Images |
 |---------|------------------|
-| Aegithalos_caudatus | 45 |
-| Carduelis_carduelis | 52 |
-| Certhia_brachydactyla | 50 |
-| Chloris_chloris | 55 |
-| Coccothraustes_coccothraustes | 45 |
-| Columba_palumbus | 43 |
-| Cyanistes_caeruleus | 48 |
-| Dendrocopos_major | 47 |
-| Emberiza_citrinella | 45 |
-| Erithacus_rubecula | 45 |
-| Fringilla_coelebs | 46 |
-| Garrulus_glandarius | 41 |
-| Parus_major | 46 |
-| Passer_domesticus | 46 |
-| Phoenicurus_ochruros | 46 |
-| Pica_pica | 45 |
-| Poecile_palustris | 51 |
-| Pyrrhula_pyrrhula | 48 |
-| Sitta_europaea | 45 |
-| Spinus_spinus | 50 |
-| Turdus_merula | 48 |
+| Aegithalos_caudatus | 0 |
+| Carduelis_carduelis | 0 |
+| Certhia_brachydactyla | 0 |
+| Chloris_chloris | 0 |
+| Coccothraustes_coccothraustes | 0 |
+| Columba_palumbus | 0 |
+| Cyanistes_caeruleus | 0 |
+| Dendrocopos_major | 0 |
+| Emberiza_citrinella | 0 |
+| Erithacus_rubecula | 0 |
+| Fringilla_coelebs | 0 |
+| Garrulus_glandarius | 0 |
+| Parus_major | 0 |
+| Passer_domesticus | 0 |
+| Phoenicurus_ochruros | 0 |
+| Pica_pica | 0 |
+| Poecile_palustris | 0 |
+| Pyrrhula_pyrrhula | 0 |
+| Sitta_europaea | 0 |
+| Spinus_spinus | 0 |
+| Turdus_merula | 0 |
 
-**Total images in test: 987**
+**Total images in test: 0**
 
 ## Overall Dataset Summary
-**Total images in dataset:** 13016
+**Total images in dataset:** 10500
 
 ### Overall Species Counts
 | Species | Total Number of Images |
 |---------|------------------------|
-| Aegithalos_caudatus | 600 |
-| Carduelis_carduelis | 650 |
-| Certhia_brachydactyla | 602 |
-| Chloris_chloris | 724 |
-| Coccothraustes_coccothraustes | 634 |
-| Columba_palumbus | 620 |
-| Cyanistes_caeruleus | 612 |
-| Dendrocopos_major | 600 |
-| Emberiza_citrinella | 612 |
-| Erithacus_rubecula | 593 |
-| Fringilla_coelebs | 602 |
-| Garrulus_glandarius | 596 |
-| Parus_major | 605 |
-| Passer_domesticus | 630 |
-| Phoenicurus_ochruros | 594 |
-| Pica_pica | 627 |
-| Poecile_palustris | 619 |
-| Pyrrhula_pyrrhula | 631 |
-| Sitta_europaea | 594 |
-| Spinus_spinus | 660 |
-| Turdus_merula | 611 |
+| Aegithalos_caudatus | 500 |
+| Carduelis_carduelis | 500 |
+| Certhia_brachydactyla | 500 |
+| Chloris_chloris | 500 |
+| Coccothraustes_coccothraustes | 500 |
+| Columba_palumbus | 500 |
+| Cyanistes_caeruleus | 500 |
+| Dendrocopos_major | 500 |
+| Emberiza_citrinella | 500 |
+| Erithacus_rubecula | 500 |
+| Fringilla_coelebs | 500 |
+| Garrulus_glandarius | 500 |
+| Parus_major | 500 |
+| Passer_domesticus | 500 |
+| Phoenicurus_ochruros | 500 |
+| Pica_pica | 500 |
+| Poecile_palustris | 500 |
+| Pyrrhula_pyrrhula | 500 |
+| Sitta_europaea | 500 |
+| Spinus_spinus | 500 |
+| Turdus_merula | 500 |
