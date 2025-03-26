@@ -4,7 +4,7 @@ This dataset from [**WatchMyBirds-Data**](https://github.com/arminfabritzek/Watc
 was used to train the model for [**WatchMyBirds**](https://github.com/arminfabritzek/WatchMyBirds).
 
 
-The model was trained on 21 classes using a balanced dataset, where only species with between 400 and 470 images were included.
+The model was trained on 22 classes using a balanced dataset, where only species with between 400 and 470 images were included.
 
 ---
 
@@ -40,9 +40,10 @@ The model was trained on 21 classes using a balanced dataset, where only species
 | Pyrrhula_pyrrhula | 390 |
 | Sitta_europaea | 390 |
 | Spinus_spinus | 390 |
+| Sylvia_atricapilla | 390 |
 | Turdus_merula | 390 |
 
-**Total images in train: 8190**
+**Total images in train: 8580**
 
 ## Val Split
 | Species | Number of Images |
@@ -67,9 +68,10 @@ The model was trained on 21 classes using a balanced dataset, where only species
 | Pyrrhula_pyrrhula | 70 |
 | Sitta_europaea | 70 |
 | Spinus_spinus | 70 |
+| Sylvia_atricapilla | 70 |
 | Turdus_merula | 70 |
 
-**Total images in val: 1470**
+**Total images in val: 1540**
 
 ## Test Split
 | Species | Number of Images |
@@ -94,12 +96,13 @@ The model was trained on 21 classes using a balanced dataset, where only species
 | Pyrrhula_pyrrhula | 10 |
 | Sitta_europaea | 10 |
 | Spinus_spinus | 10 |
+| Sylvia_atricapilla | 10 |
 | Turdus_merula | 10 |
 
-**Total images in test: 210**
+**Total images in test: 220**
 
 ## Overall Dataset Summary
-**Total images in dataset:** 9870
+**Total images in dataset:** 10340
 
 ### Overall Species Counts
 | Species | Total Number of Images |
@@ -124,6 +127,7 @@ The model was trained on 21 classes using a balanced dataset, where only species
 | Pyrrhula_pyrrhula | 470 |
 | Sitta_europaea | 470 |
 | Spinus_spinus | 470 |
+| Sylvia_atricapilla | 470 |
 | Turdus_merula | 470 |
 
 
