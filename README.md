@@ -8,7 +8,7 @@ The model was trained on 22 classes using a balanced dataset, where only species
 
 ---
 
-![](best_model/last_confusion_matrix.png)
+![](best_model/last_confusion_matrix_efficientnet_b0.png)
 
 
 ---
