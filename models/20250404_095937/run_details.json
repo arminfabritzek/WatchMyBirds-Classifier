@@ -1,0 +1,19 @@
+{
+    "model_name": "efficientnet_b1",
+    "image_size": 240,
+    "num_classes": 29,
+    "batch_size": 256,
+    "num_epochs_total": 200,
+    "warmup_epochs": 5,
+    "unfreeze_epoch": 10,
+    "initial_head_lr": 0.002,
+    "full_finetune_lr": 0.0002,
+    "adamW_weight_decay": 0.0007,
+    "early_stop_patience": 15,
+    "criterion": {
+        "type": "CrossEntropyLoss",
+        "label_smoothing": 0.1
+    },
+    "optimizer_type": "AdamW",
+    "scheduler_type": "SequentialLR (LinearWarmup + CosineAnnealing)"
+}
