@@ -1,0 +1,6 @@
+Columba_palumbus
+Cyanistes_caeruleus
+Erithacus_rubecula
+Garrulus_glandarius
+Parus_major
+Sitta_europaea
