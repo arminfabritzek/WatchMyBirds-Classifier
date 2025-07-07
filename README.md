@@ -2,6 +2,18 @@
 
 This repository contains machine learning models trained for the [**WatchMyBirds**](https://github.com/arminfabritzek/WatchMyBirds) project, used for classifying bird species from images.
 
+## Scripts overview
+
+- **7_CLASSI_prepare_data_classify_v0x.py**
+Automates preparation of a species‐classification dataset: reads and filters metadata, creates and resizes square image crops per species, splits into train/val/test, balances classes via augmentation and downsampling, and outputs the final organized folders with run settings.
+
+- **8_CLASSI_train_efficientnet_v0x.py**
+Fine-tunes an EfficientNet classifier on the prepared dataset: sets up data transforms and loaders, initializes model architecture and hyperparameters, runs mixed-precision training with mixup/cutmix, backbone unfreezing and learning-rate scheduling, logs metrics to TensorBoard, saves and exports the best weights (including ONNX), and records all run settings.
+
+
+
+## Results
+
 The models were trained using data derived from [**WatchMyBirds-Data**](https://github.com/arminfabritzek/WatchMyBirds-Data).
 
 Dataset potentially used for training included **6** classes.
